@@ -17,7 +17,7 @@ namespace DefenseGame
 
         public bool HasScored { get { return _pathStep >= _path.Length; } }
 
-        public bool IsNeutralized => 10 <= 0;
+        public bool IsNeutralized => Health <= 0;
 
         public bool IsActive => !(IsNeutralized || HasScored);
 
