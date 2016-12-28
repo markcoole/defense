@@ -36,7 +36,6 @@ namespace DefenseGame
                     if(IsSuccessfulShot())
                     {
                         invader.DecreaseHealth(_power);
-                        Console.WriteLine("Shot at and hit an invader");
 
                         if (invader.IsNeutralized)
                         {

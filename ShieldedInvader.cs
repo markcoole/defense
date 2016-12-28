@@ -20,6 +20,10 @@ namespace DefenseGame
             {
                 base.DecreaseHealth(factor);
             }
+            else
+            {
+                Console.WriteLine("Shot at a Shielded Invader but it sustained no damage.");
+            }
         }
 
     }

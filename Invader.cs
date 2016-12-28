@@ -31,6 +31,7 @@ namespace DefenseGame
         public virtual void DecreaseHealth(int factor)
         {
             Health -= factor;
+            Console.WriteLine("Shot at and hit an invader");
         }
 
     }
