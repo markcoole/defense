@@ -8,9 +8,18 @@ namespace DefenseGame
 {
     class ShieldedInvader : Invader
     {
-        public ShieldedInvader(Path path) : base(path)
-        {
 
+        private static System.Random _random = new System.Random();
+
+        public ShieldedInvader(Path path) : base(path)
+        {}
+
+        public override void DecreaseHealth(int factor)
+        {
+            if(_random.NextDouble() < 0.5)
+            {
+                base.DecreaseHealth(factor);
+            }
         }
 
     }
