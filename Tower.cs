@@ -13,8 +13,6 @@ namespace DefenseGame
         protected virtual double Accuracy { get; } = .75;
         protected virtual string TowerType { get; } = "Basic Tower";
 
-        private static readonly Random _random = new Random();
-
         private readonly MapLocation _location;
 
         public Tower(MapLocation location)
@@ -24,7 +22,7 @@ namespace DefenseGame
 
         public bool IsSuccessfulShot()
         {
-            return _random.NextDouble() < Accuracy;
+            return Random.NextDouble() < Accuracy;
         }
 
         public void FireOnInvaders(IInvader[] invaders)
