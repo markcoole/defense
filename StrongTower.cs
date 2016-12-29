@@ -8,7 +8,7 @@ namespace DefenseGame
 {
     class StrongTower : Tower
     {
-        protected virtual int Power { get; } = 4;
+        protected override int Power { get; } = 4;
         protected override double Accuracy { get; } = .55;
         protected override string TowerType { get; } = "Strong Tower";
 
