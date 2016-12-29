@@ -53,6 +53,7 @@
     <Compile Include="ShieldedInvader.cs" />
     <Compile Include="SniperTower.cs" />
     <Compile Include="StrongInvader.cs" />
+    <Compile Include="StrongTower.cs" />
     <Compile Include="Tower.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
