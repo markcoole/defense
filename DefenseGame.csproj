@@ -47,6 +47,7 @@
     <Compile Include="IInvader.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="DefenseException.cs" />
+    <Compile Include="LongRangeTower.cs" />
     <Compile Include="MapLocation.cs" />
     <Compile Include="Invader.cs" />
     <Compile Include="Map.cs" />
