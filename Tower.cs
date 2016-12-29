@@ -11,6 +11,7 @@ namespace DefenseGame
         protected virtual int Range { get; } = 1;
         protected virtual int Power { get; } = 1;
         protected virtual double Accuracy { get; } = .75;
+        protected virtual string TowerType { get; } = "Basic Tower";
 
         private static readonly Random _random = new Random();
 
@@ -36,6 +37,7 @@ namespace DefenseGame
                     if(IsSuccessfulShot())
                     {
                         invader.DecreaseHealth(Power);
+                        Console.WriteLine( TowerType + " shot at and hit an invader");
 
                         if (invader.IsNeutralized)
                         {
@@ -44,7 +46,7 @@ namespace DefenseGame
                     }
                     else
                     {
-                        Console.WriteLine("Shot at and miss and invader");
+                        Console.WriteLine( TowerType + " shot at and miss an invader");
                     }
                     break;
                 }

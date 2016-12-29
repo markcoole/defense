@@ -22,7 +22,7 @@ namespace DefenseGame
             }
             else
             {
-                Console.WriteLine("Shot at a Shielded Invader but it sustained no damage.");
+                Console.WriteLine("Shielded Invader was shot at but it sustained no damage.");
             }
         }
 

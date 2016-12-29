@@ -10,6 +10,7 @@ namespace DefenseGame
     {
         protected override int Range { get; } = 2;
         protected override double Accuracy { get; } = .85;
+        protected override string TowerType { get; } = "Sniper Tower";
 
         public SniperTower(MapLocation location) : base(location)
         {}
