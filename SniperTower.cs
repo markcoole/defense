@@ -9,7 +9,7 @@ namespace DefenseGame
     class SniperTower : Tower
     {
         protected override int Range { get; } = 2;
-        protected override double Accuracy { get; } = .85;
+        protected override double Accuracy { get; } = .99;
         protected override string TowerType { get; } = "Sniper Tower";
 
         public SniperTower(MapLocation location) : base(location)
