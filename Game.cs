@@ -37,7 +37,7 @@ namespace DefenseGame
 
                 Tower[] towers =
                 {
-                    new Tower(new MapLocation(1, 5, map)),
+                    new Tower(new MapLocation(1, 3, map)),
                     new SniperTower(new MapLocation(3, 3, map)),
                     new Tower(new MapLocation(5, 3, map))
                 };
