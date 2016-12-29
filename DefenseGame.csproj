@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="BasicInvader.cs" />
     <Compile Include="FastInvader.cs" />
+    <Compile Include="IInvader.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="DefenseException.cs" />
     <Compile Include="MapLocation.cs" />
